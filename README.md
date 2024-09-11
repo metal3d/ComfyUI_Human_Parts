@@ -30,12 +30,15 @@ Keras model is the only one I found that works!
 
 I strongly recommend to use ComfyUI-Manager to install the node. It will install the dependencies and the model.
 
-If you're using the command line, you can install the node with:
+> Note, as far as my repository isn't validated in the ComfyUI-Manager index, you must do the installation manually.
 
 ```bash
+# ensure that you have activated the virtual environment before !!
+
+# then...
 cd /path/to/your/ComfyUI/custom_nodes
-git clone ...
-cd HumanParts
+git clone https://github.com/metal3d/ComfyUI_Human_Parts.git
+cd ComfyUI_Human_Parts
 pip install -r requirements.txt
 # or
 python -m pip install -r requirements.txt
