@@ -19,7 +19,7 @@ repository](https://huggingface.co/Metal3d/deeplabv3p-resnet50-human) to share t
 
 You can drag and drop the following image to try:
 
-![Example workflow]("./images/Human Parts.png")
+![Example workflow](./images/HumanPartsWorkflow.png)
 
 ## DeepLabV3+ ResNet50 for Human
 
