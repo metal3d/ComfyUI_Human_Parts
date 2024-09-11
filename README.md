@@ -31,6 +31,8 @@ Keras model is the only one I found that works!
 I strongly recommend to use ComfyUI-Manager to install the node. It will install the dependencies and the model.
 
 > Note, as far as my repository isn't validated in the ComfyUI-Manager index, you must do the installation manually.
+>
+> If you set up ComfyUI-Manager to "middle" or "weak" security, you can use the "Install from Git URL" feature.
 
 ```bash
 # ensure that you have activated the virtual environment before !!
@@ -42,8 +44,11 @@ cd ComfyUI_Human_Parts
 pip install -r requirements.txt
 # or
 python -m pip install -r requirements.txt
+
+# install the model
+python install.py
 ```
 
-Then, restart ComfyUI and you may find the "HumanParts" node.
+Then, restart ComfyUI, refresh the UI, and you may find the "Human Parts mask generator" node.
 
 ![The node](./images/node.png)
